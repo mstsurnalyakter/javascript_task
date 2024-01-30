@@ -4,10 +4,10 @@ Write a loop that goes from 1 to 100, but stops (using break) when it encounters
 
 
 
-// for (let number = 1; number <= 100; number++) {
-//   let square = number ** 2;
-//   console.log(number);
-//   if (square <= 100) {
-//     break;
-//   }
-// }
+for (let number = 1; number <= 100; number++) {
+  let square = number ** 2;
+  console.log(number);
+  if (square <= 100) {
+    break;
+  }
+}
