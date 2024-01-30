@@ -9,6 +9,12 @@ for (let i = 0; i < buttons.length; i++) {
   });
 }
 
+document.addEventListener("keypress", (e) => {
+  let text = e.key;
+  audioPlay(text);
+  playAnimation(text);
+});
+
 const audioPlay = (text) => {
   switch (text) {
     case "a":
