@@ -19,8 +19,12 @@ function capitalizeEveryFirstLetter(str) {
 }
 
 // Example usage:
-const inputString = "this is an example string.";
-const capitalizedString = capitalizeEveryFirstLetter(inputString);
+const inputString1 = "this is an example string.";
+const inputString2 = "I am Mst Surnaly Akter. I am a web developer."
+const capitalizedString1 = capitalizeEveryFirstLetter(inputString1);
+const capitalizedString2 = capitalizeEveryFirstLetter(inputString2);
 
-console.log("Original String:", inputString);
-console.log("Modified String:", capitalizedString);
+console.log("Original String:", inputString1);
+console.log("Modified String:", capitalizedString1);
+console.log("Original String:", inputString2);
+console.log("Modified String:", capitalizedString2);
