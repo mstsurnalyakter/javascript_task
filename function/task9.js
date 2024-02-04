@@ -9,7 +9,7 @@ const layeredDiscountTotal = quantity =>{
     }else if (quantity <= 200) {
         const first100TotalPrice = first100Price * 100;
         const remainingQuantity = quantity - 100;
-        const remainingTotalPrice = remainingQuantity * 90;
+        const remainingTotalPrice = remainingQuantity * second100Price;
         const total = first100TotalPrice + remainingTotalPrice;
         return total;
     }else{
