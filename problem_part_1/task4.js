@@ -16,7 +16,6 @@ const longestWord = sentence =>{
             longestWord = item;
         }
     }
-
     return longestWord;
 }
 
