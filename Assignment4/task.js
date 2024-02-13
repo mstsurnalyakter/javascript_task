@@ -1,3 +1,4 @@
+/*
 function calculateMoney(ticketSale) {
   if (typeof ticketSale !== "number" || ticketSale < 0) {
     return "Invalid Number. Please provide a valid number.";
@@ -63,6 +64,9 @@ function password(obj) {
   return passwordGenerator;
 }
 
+*/
+
+
 function monthlySavings(arr, livingCost) {
   if (!Array.isArray(arr) || typeof livingCost !== "number") {
     return "Invalid input.";
@@ -83,3 +87,9 @@ function monthlySavings(arr, livingCost) {
 
   return "“earn more”";
 }
+
+
+console.log(monthlySavings([1000,2000,3000],5400));
+console.log(monthlySavings([1000,2000,2500],5000));
+console.log(monthlySavings([900,7200,3400],10000));
+console.log(monthlySavings(3400, [9000, 7200, 3400]));
