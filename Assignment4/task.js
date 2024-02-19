@@ -1,4 +1,4 @@
-/*
+
 function calculateMoney(ticketSale) {
   if (typeof ticketSale !== "number" || ticketSale < 0) {
     return "Invalid Number. Please provide a valid number.";
@@ -64,7 +64,7 @@ function password(obj) {
   return passwordGenerator;
 }
 
-*/
+
 
 
 function monthlySavings(arr, livingCost) {
